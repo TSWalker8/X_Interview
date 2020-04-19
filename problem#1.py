@@ -18,5 +18,3 @@ def fibonacci(num):
             add=add+item
     print(add)
     return
-        
-    
