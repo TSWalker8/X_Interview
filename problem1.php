@@ -5,6 +5,10 @@
 		$fib[1]=1;
 		$check = 0;
 		$i=2;
+		if($num ==0){
+			print_r (0);
+			return;
+		}
 		while($check<$num){
 			$check=$fib[$i-1]+$fib[$i-2];
 			if($check>$num){
@@ -24,6 +28,6 @@
 		return;
 	}
 
-	fibonacci(22);
+	fibonacci(1);
 
 ?>

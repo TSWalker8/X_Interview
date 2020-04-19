@@ -13,6 +13,7 @@
   			$count++;
 		}
 		fclose($file);
+		return;
 
 	}
 	readcsv();
