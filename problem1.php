@@ -1,4 +1,3 @@
-<html
 <?php
 	function fibonacci($num){
 		$fib=[];
