@@ -3,7 +3,7 @@
 		$count =0;
 		$file = fopen('address - address.csv', 'r');
 		print_r ("The names are");
-		while (($line = fgetcsv($file)) !== false) {
+		while (($line = fgetcsv($file)) != false) {
   			if($line[3] == "Ontario" && $count!=0){
   				echo("<br>");
   				print_r($line[0]);
