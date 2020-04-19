@@ -11,10 +11,17 @@
 			if($check>$num){
 				break;
 			}
-			$fib[$i]=check;
+			$fib[$i]=$check;
 			$i++;
 		}
 		print_r($fib);
+		$odd=0;
+		foreach ($fib as $adder){
+			if($adder%2!=0){
+				$odd=$odd+$adder;
+			}
+		}
+		print_r($odd);
 		return;
 	}
 
